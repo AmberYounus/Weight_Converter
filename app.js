@@ -5,5 +5,5 @@ let kgs = e.target.value;
 document.getElementById("gramsOutput").innerHTML =(kgs*1000).toFixed(2)
 document.getElementById("lbsOutput").innerHTML =(kgs*2.2046).toFixed(2)
 document.getElementById("ozOutput").innerHTML =(kgs*35.274).toFixed(2)
-
+document.getElementById("stonesOutput").innerHTML =(kgs*0.1574).toFixed(2)
 })
